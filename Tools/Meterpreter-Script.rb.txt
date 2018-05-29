@@ -1,0 +1,16 @@
+﻿ def getinfo(session)
+    begin
+       sysnfo = session.sys.config.sysinfo
+       runpriv = session.sys.config.getuid
+       print_status("Recéption des informations ...")
+       print_status("La machine cible est un OS #{sysnfo['OS']}")
+       print_status("Le nom de la machine est #{'Computer'} ")
+       print_status("Script tourne en #{runpriv}")
+    rescue ::Exception => e
+       print_error("L'erreur suivante à été rencontrée #{e}")
+    end
+ end
+
+ getinfo(client)
+
+ 
